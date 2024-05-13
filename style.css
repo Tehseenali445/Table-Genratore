@@ -1,0 +1,95 @@
+body {
+  background-color: rgba(189, 177, 177, 0.356);
+}
+
+.container {
+  margin: 3% auto;
+  background-color: rgba(216, 200, 200, 0.603);
+  box-shadow: rgba(103, 103, 110, 0.342) 0px 7px 29px 0px;
+  border-radius: 8px;
+  height: 33rem;
+  width: 65%;
+  border: 4px solid rgba(211, 195, 195, 0.658);
+}
+
+input {
+  border: none;
+  width: 200px;
+  height: 28px;
+  border-radius: 4px;
+  text-align: center;
+  margin: 4% 0% 0% 13%;
+  padding: 5px;
+  transition: 0.4s;
+}
+
+input:hover {
+  background-color: rgba(192, 173, 173, 0.719);
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  transition: 0.4s;
+  font-weight: bold;
+  /* border: 4px solid rgba(211, 195, 195, 0.658); */
+}
+
+input::placeholder {
+  color: rgba(91, 99, 99, 0.664);
+}
+
+.input-btn {
+  /* border: 1px solid black; */
+  width: 80%;
+  height: 72px;
+  margin: auto;
+}
+
+.para p {
+  /* border: 1px solid black; */
+  /* box-shadow: rgba(103, 103, 110, 0.342) 0px 7px 29px 0px; */
+  margin: 10px auto;
+  width: 350px;
+  height: 370px;
+  color: rgb(84, 75, 92);
+  font-size: x-large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+}
+
+.para {
+  box-shadow: rgba(77, 77, 82, 0.342) 0px 7px 29px 0px;
+  border-radius: 12px;
+  width: 350px;
+  margin: 10px auto;
+  padding: 5px;
+}
+
+button {
+  cursor: pointer;
+  height: 35px;
+  border-radius: 4px;
+  border: none;
+  color: rgba(91, 99, 99, 0.685);
+  background-color: white;
+  margin: 0% 0% 58% 42%;
+  font-weight: bold;
+  transition: 0.4s;
+  border: 4px solid rgba(211, 195, 195, 0.658);
+}
+
+button:hover {
+  background-color: rgba(192, 173, 173, 0.719);
+  border: none;
+  outline: none;
+  color: rgba(8, 8, 8, 0.61);
+  transition: 0.4s;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(99, 88, 88, 0.781);
+}
